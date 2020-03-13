@@ -8,21 +8,21 @@
 
 import Foundation
 
-enum HTTPMethod: String {
+private enum HTTPMethod: String {
     case get = "GET"
     case put = "PUT"
     case post = "POST"
     case delete = "DELETE"
 }
 
-class SearchResultController {
-    let baseURL = URL(string: "https://itunes.apple.com")!
+final class SearchResultController {
+    private let baseURL = URL(string: "https://itunes.apple.com/search")!
     var searchResults: [SearchResult] = []
     
     func performSearch(searchTerm: String, resultType: ResultType, completion: @escaping (_: Error?) -> Void) {
         
         var urlComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
-        let searchTermQueryItem = URLQueryItem(name: "search", value: searchTerm)
+        let searchTermQueryItem = URLQueryItem(name: "term", value: searchTerm)
         urlComponents?.queryItems = [searchTermQueryItem]
         
         guard let requestURL = urlComponents?.url else {
