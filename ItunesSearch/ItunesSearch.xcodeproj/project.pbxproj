@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		3F6DE53D241AFBD00076F81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE53C241AFBD00076F81A /* AppDelegate.swift */; };
 		3F6DE53F241AFBD00076F81A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE53E241AFBD00076F81A /* SceneDelegate.swift */; };
-		3F6DE541241AFBD00076F81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE540241AFBD00076F81A /* ViewController.swift */; };
 		3F6DE544241AFBD00076F81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6DE542241AFBD00076F81A /* Main.storyboard */; };
 		3F6DE546241AFBD10076F81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6DE545241AFBD10076F81A /* Assets.xcassets */; };
 		3F6DE549241AFBD10076F81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6DE547241AFBD10076F81A /* LaunchScreen.storyboard */; };
 		3F6DE551241AFCA70076F81A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE550241AFCA70076F81A /* SearchResult.swift */; };
 		3F6DE553241AFE3E0076F81A /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE552241AFE3E0076F81A /* ResultType.swift */; };
 		3F6DE555241AFE8B0076F81A /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE554241AFE8B0076F81A /* SearchResultController.swift */; };
+		3F6DE557241B06F80076F81A /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DE556241B06F80076F81A /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F6DE539241AFBD00076F81A /* ItunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6DE53C241AFBD00076F81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F6DE53E241AFBD00076F81A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F6DE540241AFBD00076F81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F6DE543241AFBD00076F81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6DE545241AFBD10076F81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6DE548241AFBD10076F81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		3F6DE550241AFCA70076F81A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		3F6DE552241AFE3E0076F81A /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		3F6DE554241AFE8B0076F81A /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		3F6DE556241B06F80076F81A /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 			children = (
 				3F6DE53C241AFBD00076F81A /* AppDelegate.swift */,
 				3F6DE53E241AFBD00076F81A /* SceneDelegate.swift */,
-				3F6DE540241AFBD00076F81A /* ViewController.swift */,
 				3F6DE542241AFBD00076F81A /* Main.storyboard */,
+				3F6DE556241B06F80076F81A /* SearchResultsTableViewController.swift */,
 				3F6DE545241AFBD10076F81A /* Assets.xcassets */,
 				3F6DE547241AFBD10076F81A /* LaunchScreen.storyboard */,
 				3F6DE54A241AFBD10076F81A /* Info.plist */,
@@ -149,7 +149,7 @@
 			files = (
 				3F6DE555241AFE8B0076F81A /* SearchResultController.swift in Sources */,
 				3F6DE553241AFE3E0076F81A /* ResultType.swift in Sources */,
-				3F6DE541241AFBD00076F81A /* ViewController.swift in Sources */,
+				3F6DE557241B06F80076F81A /* SearchResultsTableViewController.swift in Sources */,
 				3F6DE53D241AFBD00076F81A /* AppDelegate.swift in Sources */,
 				3F6DE551241AFCA70076F81A /* SearchResult.swift in Sources */,
 				3F6DE53F241AFBD00076F81A /* SceneDelegate.swift in Sources */,
