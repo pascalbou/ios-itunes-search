@@ -8,7 +8,13 @@
 
 import Foundation
 
-enum ResultType: String {
+//enum ResultType: String {
+//    case software = "Apps"
+//    case musicTrack = "Music"
+//    case movie = "Movies"
+//}
+
+enum ResultType {
     case software
     case musicTrack
     case movie
